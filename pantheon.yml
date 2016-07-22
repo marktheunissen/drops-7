@@ -18,3 +18,5 @@ workflows:
         script: test2.php
 
 web_docroot: true
+
+invalid_key: true
