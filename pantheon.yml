@@ -6,6 +6,11 @@ workflows:
       - type: webphp
         description: Run some hook.
         script: test2.php
+  deploy_product:
+    after:
+      - type: webphp
+        description: Run after deploying the deploy_product
+        script: test3.php
   deploy:
     after:
       - type: webphp
