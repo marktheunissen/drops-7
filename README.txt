@@ -4,6 +4,7 @@ Commit 2
 Commit 3
 Commit 4
 Commit 5
+Commit 6
 
 SEE the with_panyml branch for pantheon.yml examples
 
